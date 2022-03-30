@@ -1,0 +1,11 @@
+package Gimeno;
+
+public class RemovingWhiteSpaceFromAString {
+
+public static void main(String[] args) {
+  String str = " Kri  sta  n   Gi  me no ";
+  
+    String str1 = str.replaceAll("\s", "");
+    System.out.println(str1);
+}
+}
